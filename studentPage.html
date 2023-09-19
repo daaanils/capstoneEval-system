@@ -327,27 +327,52 @@
 						<h4 class="modal-title">Edit Employee</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					</div>
-					<div class="modal-body">					
-						<div class="form-group">
-							<label>Name</label>
-							<input type="text" class="form-control" required>
-						</div>
-						<div class="form-group">
-							<label>Email</label>
-							<input type="email" class="form-control" required>
-						</div>
-						<div class="form-group">
-							<label>Address</label>
-							<textarea class="form-control" required></textarea>
-						</div>
-						<div class="form-group">
-							<label>Phone</label>
-							<input type="text" class="form-control" required>
-						</div>					
-					</div>
+					<div class="modal-body">
+                        <div class="form-group">
+                            <label>Group No.</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Redefense</label>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Type of Defense</label>
+                            <select class="form-control">
+                                <option value="proposal">Proposal Defense</option>
+                                <option value="tool">Tool Defense</option>
+                                <option value="title">Title Defense</option>
+                                <option value="final">Final Defense</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>PROJECT TITLE</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>BRIEF DESCRIPTION</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>PROPONENTS</label>
+                            <input type="text" class="form-control mb-2" required>
+                            <input type="text" class="form-control mb-2" required>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>PROJECT DOCUMENT</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>POWERPOINT LINK</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
 					<div class="modal-footer">
 						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-						<input type="submit" class="btn btn-info" value="Save">
+						<input type="submit" class="btn btn-info" value="Save Changes">
 					</div>
 				</form>
 			</div>
@@ -359,7 +384,7 @@
 			<div class="modal-content">
 				<form>
 					<div class="modal-header">						
-						<h4 class="modal-title">Delete Employee</h4>
+						<h4 class="modal-title">Delete Group Records</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					</div>
 					<div class="modal-body">					
